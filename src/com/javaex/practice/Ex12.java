@@ -2,7 +2,7 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class Ex12_b {
+public class Ex12 {
 
 	public static void main(String[] args) {
 		
@@ -11,7 +11,12 @@ public class Ex12_b {
 		
 		System.out.println("숫자를 입력하세요");
 		int num=sc.nextInt();
+		int factorial =1;
 		
+		for(int i=1; i<=num; i++) {
+			factorial=factorial*i;
+			
+		}System.out.println("결과값: "+factorial);
 		
 		
 		sc.close();
